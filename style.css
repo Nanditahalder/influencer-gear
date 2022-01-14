@@ -1,0 +1,67 @@
+
+body{
+    font-family: 'Cairo', sans-serif;
+    padding: 50px;
+
+}
+h1{
+    font-size: 30px;
+    margin-left: 50px;
+ 
+
+}
+
+.navbar ul{
+    display: flex;
+    font-size: 20px;
+    margin-left: 900px;
+    font-weight: 700;
+    
+   
+}
+.navbar li{
+    list-style: none;
+    margin-right: 30px;
+    
+}
+.navbar li a{
+    text-decoration: none;
+    color: #000;
+}
+.conteinar{
+    display: flex;
+    margin-top: 200px;
+    
+}
+.influence-info h1{
+    font-size: 60px;
+    
+}
+.influence-info p{
+    margin-left: 33px;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.btn{
+    padding: 12px 24px;
+    background-color:#fd2760;
+    border-radius: 23px;
+    margin-left: 33px;
+    font-size: 18px;
+}
+.btn a{
+    text-decoration: none;
+   
+    color: white;
+}
+
+.image{
+    width: 70%;
+    margin-top: 50px;
+}
+h3{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+}
