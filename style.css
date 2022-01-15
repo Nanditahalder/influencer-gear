@@ -1,15 +1,15 @@
 
 body{
     font-family: 'Cairo', sans-serif;
-    padding: 50px;
-
+    margin: 0;
+    padding: 0;
 }
-h1{
+/* h1{
     font-size: 30px;
-    margin-left: 50px;
+     margin-left: 50px; 
  
 
-}
+}  */
 
 .navbar ul{
     display: flex;
@@ -30,24 +30,29 @@ h1{
 }
 .conteinar{
     display: flex;
-    margin-top: 200px;
+    /* justify-content: space-around; */
+    /* margin-top: 200px; */
     
 }
+.influence-info{
+    margin-left: 150px;
+}
 .influence-info h1{
-    font-size: 60px;
+    font-size: 70px;
+    margin: 0px;
     
 }
 .influence-info p{
-    margin-left: 33px;
-    font-size: 17px;
-    font-weight: 700;
-    margin-bottom: 50px;
+    
+    font-size: 18px;
+    font-weight: bold;
+   
 }
 .btn{
     padding: 12px 24px;
     background-color:#fd2760;
     border-radius: 23px;
-    margin-left: 33px;
+    /* margin-left: 33px; */
     font-size: 18px;
 }
 .btn a{
@@ -55,13 +60,72 @@ h1{
    
     color: white;
 }
-
-.image{
-    width: 70%;
-    margin-top: 50px;
+.popular-image {
+   
+    margin: 0 150px;
 }
-h3{
+
+.popular-image i{
+    color: rgba(255, 230, 2, 0.959);
+}
+.images{
+    background-color: #F3F3F3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 30px;
+}
+.image{
+    width: 100%;
+    /* margin-left: 50px; */
+}
+.section-title h3{
     text-align: center;
     font-size: 40px;
     margin-top: 100px;
+}
+.one-image{
+    box-shadow: 1px 0px 11px -1px;
+    padding: 20px, 20px;
+}
+.one-image img{
+    width: 100%;
+}
+.card-info{
+    padding: 20px 20px;
+}
+.more-btn{
+    background-color: #fff;
+    font-size: 18px;
+    border-style: none;
+    margin-left: 1390px;
+    margin-top: 30px;
+}
+.more-btn a{
+    text-decoration: none;
+    color: #fd2760;
+}
+.gallery{
+    font-size: 50px;
+    text-align: center;
+}
+.camera-section{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.camera-section img{
+    width:80%;
+}
+.done{
+    background-color: rgb(46, 46, 82);
+    text-align: center;
+    color: white;
+   
+}
+.done i{
+    font-size: 20px;
+    margin-left: 10px;
+    border-radius: 5px;
 }
