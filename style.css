@@ -126,20 +126,5 @@ body{
     border-radius: 5px;
 }
 
-@media only screen and (min-width:400px) {
-    .navbar {
-        display: none;
-    }
-    .images{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 30px;
-    }
-    .camera-section img{
-        width: 90%;
-        height: 250px;
 
-    }
- 
-}
 
